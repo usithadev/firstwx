@@ -9,6 +9,6 @@ set(wxWidgets_EXCLUDE_COMMON_LIBRARIES TRUE)
 find_package(wxWidgets REQUIRED core base CONFIG)
 include(UsewxWidgets)
 
-add_executable(UTerm WIN32 main.cpp versioninfo.rc)
+add_executable(UTerm WIN32 main.cpp main.h versioninfo.rc)
 
 target_link_libraries(UTerm ${wxWidgets_LIBRARIES})
