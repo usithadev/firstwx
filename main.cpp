@@ -1,31 +1,6 @@
-#include <wx/wxprec.h>
-
-#ifndef WX_PRECOMP
-#include <wx/wx.h>
-#endif
-
-class MyApp : public wxApp
-{
-public:
-	virtual bool OnInit();
-};
-
-class MyFrame : public wxFrame
-{
-public:
-	MyFrame();
-private:
-	void OnHello(wxCommandEvent& evt);
-	void OnExit(wxCommandEvent& evt);
-	void OnAbout(wxCommandEvent& evt);
-};
+#include "main.h"
 
 wxIMPLEMENT_APP(MyApp);
-
-enum U_EVENT_ID
-{
-	ID_Hello = 1,
-};
 
 bool MyApp::OnInit()
 {
@@ -34,7 +9,7 @@ bool MyApp::OnInit()
 	return true;
 }
 
-MyFrame::MyFrame() : wxFrame(nullptr, wxID_ANY, "Usitha Indeewara")
+MyFrame::MyFrame() : wxFrame(nullptr, wxID_ANY, "Usitha's wxWidgets Hello World :)")
 {
 	SetIcon(wxICON(appicon));
 
