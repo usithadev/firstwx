@@ -1,7 +1,7 @@
 This is my first GUI application wriiten with C++ and wxWidgets. I'll write build instructions later.
 
 BUILD INSTRUCTIONS  
-__  
+___
 
 To build, you need to build wxWidgets (version 3.3.0 or later) from source with cmake. Visit https://docs.wxwidgets.org/latest/overview_cmake.html for wxWidgets cmake build instrunctons.  
 
