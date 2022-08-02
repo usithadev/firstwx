@@ -1,4 +1,4 @@
-This is my first GUI application wriiten with C++ and wxWidgets.
+This is my first GUI application written with C++ and wxWidgets.
 
 BUILD INSTRUCTIONS  
 ___
