@@ -1,0 +1,1 @@
+This is my first GUI application wriiten with C++ and wxWidgets. I'll write build instructions later.
