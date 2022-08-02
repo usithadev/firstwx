@@ -1,0 +1,26 @@
+appicon ICON "icon.ico"
+#include "wx/msw/wx.rc"
+
+1 VERSIONINFO
+FILEVERSION 1,0,0
+PRODUCTVERSION 1,0,0
+BEGIN
+   BLOCK "StringFileInfo"
+   BEGIN
+     BLOCK "040904E4"
+     BEGIN
+        VALUE "CompanyName", "Usitha Indeewara"
+        VALUE "FileDescription", "A simple GUI app written by Usitha Indeewara"
+        VALUE "LegalCopyright", "Copyright (c) 2022 Usitha Indeewara. All Rights Resrved"
+        VALUE "OriginalFilename", "UTerm.exe"
+        VALUE "ProductVersion", "1.0.0\0"
+        VALUE "FileVersion", "1.0.0\0"
+        VALUE "ProductName", "UTerm"
+     END
+   END
+   BLOCK "VarFileInfo"
+   BEGIN
+        VALUE "Translation", 0x409, 1252
+   END
+END
+
