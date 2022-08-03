@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.1.0)
 
-project(UTerm VERSION 1.0.0)
+project(FirstWX VERSION 1.0.0)
 
 set(wxWidgets_DIR "F:/apps/wxWidgets/lib/cmake/wxWidgets")
 set(wxWidgets_CONFIGURATION mswu)
@@ -11,7 +11,7 @@ include(UsewxWidgets)
 
 find_package(Doxygen REQUIRED)
 
-set(DOXYGEN_PROJECT_NAME "UTerm")
+set(DOXYGEN_PROJECT_NAME "FirstWX")
 set(DOXYGEN_PROJECT_NUMBER 1.0.0)
 set(DOXYGEN_PROJECT_BRIEF "A simple wxWidgets C++ hello world GUI project.")
 
@@ -21,6 +21,6 @@ doxygen_add_docs(
     COMMENT "Generate HTML docs"
 )
 
-add_executable(UTerm WIN32 main.cpp main.h versioninfo.rc)
+add_executable(FirstWX WIN32 main.cpp main.h versioninfo.rc)
 
-target_link_libraries(UTerm ${wxWidgets_LIBRARIES})
+target_link_libraries(FirstWX ${wxWidgets_LIBRARIES})
