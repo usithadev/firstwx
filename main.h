@@ -4,7 +4,7 @@
 #include <wx/wxprec.h>
 
 #ifndef WX_PRECOMP
-#include <wx/wx.h>
+    #include <wx/wx.h>
 #endif
 
 class MyApp : public wxApp
@@ -12,6 +12,9 @@ class MyApp : public wxApp
 public:
 	virtual bool OnInit();
 };
+
+
+wxDECLARE_APP(MyApp)
 
 class MyFrame : public wxFrame
 {
