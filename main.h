@@ -14,7 +14,7 @@ public:
 };
 
 
-wxDECLARE_APP(MyApp)
+wxDECLARE_APP(MyApp);
 
 class MyFrame : public wxFrame
 {
