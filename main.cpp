@@ -1,3 +1,14 @@
+/**
+ * @file main.cpp
+ * @author Usitha Indeewara (https://github.com/usithadev)
+ * @brief The forward declarations of classes, member functions in main.h
+ * @version 0.1
+ * @date 2022-08-03
+ * 
+ * @copyright Copyright (c) 2022 Usitha Indeewara.
+ * 
+ */
+
 #include "main.h"
 
 wxIMPLEMENT_APP(MyApp);
