@@ -17,6 +17,6 @@ cd build
 cmake --build .
 ```  
 
-Now you can run the UTerm.exe in the build folder. :)  
+Now you can run the FirstWX.exe in the build folder. :)  
 
 Just made this repo public for fun.
