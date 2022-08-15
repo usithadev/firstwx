@@ -20,3 +20,5 @@ cmake --build .
 Now you can run the FirstWX.exe in the build folder. :)  
 
 Just made this repo public for fun.
+
+(A new wxWidgets notepad app coming soon...)
