@@ -12,10 +12,10 @@ BEGIN
         VALUE "CompanyName", "Usitha Indeewara"
         VALUE "FileDescription", "A simple GUI app written by Usitha Indeewara"
         VALUE "LegalCopyright", "Copyright (c) 2022 Usitha Indeewara. All Rights Resrved"
-        VALUE "OriginalFilename", "UTerm.exe"
+        VALUE "OriginalFilename", "FirstWX.exe"
         VALUE "ProductVersion", "1.0.0\0"
         VALUE "FileVersion", "1.0.0\0"
-        VALUE "ProductName", "UTerm"
+        VALUE "ProductName", "FirstWX"
      END
    END
    BLOCK "VarFileInfo"
