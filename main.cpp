@@ -53,7 +53,7 @@ void MyFrame::OnHello(wxCommandEvent& evt)
 
 void MyFrame::OnAbout(wxCommandEvent& evt)
 {	
-	wxMessageBox("Hello!\nI am Usitha visit https://github.com/usithadev or \nhttps://usithadev.herokuapp.com for more,");
+	wxMessageBox("Hello!\nI am Usitha visit https://github.com/usithadev or \nhttps://usithadev.glitch.me for more,");
 }
 
 void MyFrame::OnExit(wxCommandEvent& evt)
