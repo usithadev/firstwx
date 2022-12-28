@@ -22,7 +22,9 @@ bool MyApp::OnInit()
 
 MyFrame::MyFrame() : wxFrame(nullptr, wxID_ANY, "Usitha's wxWidgets Hello World :)")
 {
+#if WIN32
 	SetIcon(wxICON(appicon));
+#endif // WIN32
 
 	wxMenu *fileMenu = new wxMenu;
 	fileMenu->Append(ID_Hello, "&Hello", "Get hello by Usitha");
