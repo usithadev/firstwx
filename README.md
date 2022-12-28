@@ -1,21 +1,19 @@
 This is my first GUI application written with C++ and wxWidgets.
 
-# BUILD INSTRUCTIONS  
+### BUILD INSTRUCTIONS  
 
-To build, you need to build wxWidgets (version 3.3.0 or later) from source with cmake. Visit https://docs.wxwidgets.org/latest/overview_cmake.html for wxWidgets cmake build instrunctons.  
+To build, you need to be installed [wxWidgets](https://www.wxwidgets.org/) on your platform. After installation you should give the following commands in your terminal:
 
 ```bash
-git commit https://github.com/usithadev/firstwx
+$ git clone https://github.com/usithadev/firstwx
 
-cd firstwx
+$ cd firstwx
 
-cmake -S . -B ./build -DwxWidgets_DIR=path/to/wxWidgets/lib/cmake/wxWidgets -DwxWidgets_CONFIGURATION=mswu -G "MinGW Makefiles"
+$ cmake -S . -B ./build -G "Unix Makefiles"
 
-cd build
+$ cd build
 
-cmake --build .
+$ cmake --build .
 ```  
 
 Now you can run the FirstWX.exe in the build folder. :)  
-
-I'm still learning wxWidgets. Just made this repo public for fun. After having some experience on wxWidegts; I hope to make more open source wxWidgets projects.
