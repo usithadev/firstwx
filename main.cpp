@@ -20,14 +20,14 @@ bool MyApp::OnInit()
 	return true;
 }
 
-MyFrame::MyFrame() : wxFrame(nullptr, wxID_ANY, "Usitha's wxWidgets Hello World :)")
+MyFrame::MyFrame() : wxFrame(nullptr, wxID_ANY, "wxWidgets Hello World GUI")
 {
 #if WIN32
 	SetIcon(wxICON(appicon));
 #endif // WIN32
 
 	wxMenu *fileMenu = new wxMenu;
-	fileMenu->Append(ID_Hello, "&Hello", "Get hello by Usitha");
+	fileMenu->Append(ID_Hello, "&Hello", "Say hello to the world!");
 	fileMenu->Append(wxID_EXIT);
 
 	wxMenu *aboutMenu = new wxMenu;
@@ -50,12 +50,13 @@ MyFrame::MyFrame() : wxFrame(nullptr, wxID_ANY, "Usitha's wxWidgets Hello World 
 
 void MyFrame::OnHello(wxCommandEvent& evt)
 {
-	wxMessageBox("Hello! I am Usitha!", "HELLO");
+	wxLogMessage("Hello World!!!");
 }
 
 void MyFrame::OnAbout(wxCommandEvent& evt)
 {	
-	wxMessageBox("Hello!\nI am Usitha visit https://github.com/usithadev or \nhttps://usithadev.glitch.me for more,");
+	wxMessageBox("This is a simple C++ GUI app made using wxWidgets. \nNote that using this software, you agree to use this software under the terms of GPL-3.0 License.\
+	Visit https://github.com/usithadev for more like this or to get the source code.");
 }
 
 void MyFrame::OnExit(wxCommandEvent& evt)
