@@ -2,8 +2,8 @@ cmake_minimum_required(VERSION 3.1.0)
 
 project(FirstWX VERSION 1.0.0)
 
-find_package(wxWidgets COMPONENTS core base REQUIRED)
-include(${wxWidgets_USE_FILE})
+find_package(wxWidgets COMPONENTS core base REQUIRED CONFIG)
+include(UsewxWidgets)
 
 # Doxygen for generate documentation. This is optional
 find_package(Doxygen)
